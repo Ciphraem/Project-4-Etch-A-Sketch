@@ -1,0 +1,43 @@
+body {
+    background-color: #353535;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#sketchpad {
+    flex: 0 1 auto;
+    margin: auto;
+    flex: auto;
+    width: 50%;
+    aspect-ratio: 1/1;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid white;
+}
+
+#sketchpad div{
+    flex: 0 1 auto;
+    width: 100%;
+    aspect-ratio: 1/1;
+    box-sizing: border-box;
+}
+
+/*#sketchpad div:hover {
+    background-color: #353535;
+}*/
+
+.mouseover{
+    background-color: #353535;
+}
+
+.mouseout {
+    background-color: white;
+}
+
+.mouseClick {
+    background-color: #676868;
+}
